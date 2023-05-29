@@ -1,0 +1,35 @@
+package com.example.academylesson.ifElse.then
+
+import android.util.Log
+
+
+
+    init {
+        val temperature: Int = 32
+        var temperatureMessage: String = ""
+
+        when (temperature) {
+            in 0 .. 20 -> {
+                temperatureMessage = "холодная"
+            }
+
+            in 0 downTo -20 -> {
+                temperatureMessage = "мороз"
+            }
+            in 20 .. 40 -> {
+                temperatureMessage = "жарко"
+            }
+            in -20 downTo -100 ->{
+                temperatureMessage="аномальный холод"
+            }
+            in 40 .. 100->{
+                temperatureMessage="анамальная жара"
+            }
+        }
+        Log.i("abubakir",temperatureMessage)
+
+
+
+
+ }
+}

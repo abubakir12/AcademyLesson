@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FF9800</color>
+    <color name="grey">#00B8B6B6</color>
+    <color name="blue">#3046CF</color>
+    <color name="puple">#8E24AA</color>
+    <color name="light_gray">#F5F5FA</color>
+    <color name="link_color">#3131FB</color>
+    <color name="red">#810707</color>
+    <color name="light_black">#131313</color>
+    <color name="app_color">#8A0718</color>
+</resources>
